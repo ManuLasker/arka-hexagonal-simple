@@ -14,7 +14,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-@DisplayName("Order - Entidad de Dominio")
+// @DisplayName("Order - Entidad de Dominio")
 class OrderTest {
 
     // private OrderItem crearItem(String productId, int cantidad, BigDecimal precio) {
