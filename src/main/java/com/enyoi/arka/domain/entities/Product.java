@@ -93,6 +93,7 @@ public class Product {
         }
 
         public Builder stock(int stock) {
+            if (stock < 0) throw new IllegalArgumentException("stock cannot be negative");
             this.stock = stock;
             return this;
         }
